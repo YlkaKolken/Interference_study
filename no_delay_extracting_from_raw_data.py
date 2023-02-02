@@ -45,4 +45,4 @@ if __name__ == '__main__':
                         if not file.startswith('.'):
                             table = extract_data(os.path.join(basedir, participant, part, file), table)
     print(table)
-    table.to_csv(os.path.join(basedir, '..', 'data_raw_20230129.csv'), index=False)
+    table.to_csv(os.path.join(basedir, '..', 'no_delay_extracted.csv'), index=False)
