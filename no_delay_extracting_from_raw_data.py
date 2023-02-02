@@ -9,6 +9,7 @@ def extract_data(infile, dataframe):
         cnd = None
         filename = None
         for row in data:
+            # using regular expression to extract data from strings
             condition_regex1 = re.search(r"\s+Sav\sfile\s:\s(\S+)\.?s?a?v?\s+c?o?a?n?d?i?\s?\s?\.?(\d+)", row)
             condition_regex2 = re.search(r"Datafile\s:.+co?ndi?\s*?(\d+)", row)
             savfile_regex = re.search(r"\s+Sav\sfile\s:\s(\S+)\.sav", row)
