@@ -88,9 +88,9 @@ for participant in os.listdir(BASEDIR_DELAY):
                                 table = extract_delay_data(
                                     os.path.join(BASEDIR_DELAY, participant, part, session, file), table)
 
-experiment = pd.DataFrame({'Condition': ['11', '11', '15'],
-                           'Delay/No delay': ['Delay', 'No delay', 'Delay'],
-                           'Experiment': ['1', '1', '1']})
+experiment = pd.DataFrame({'Condition': ['12', '12', '16', '135', '15'],
+                           'Delay/No delay': ['No delay', 'Delay', 'Delay', 'Delay', 'No delay'],
+                           'Experiment': ['1', '1', '1', '1', '1']})
 
 early_late = pd.DataFrame({'Session': ['1', '2', '3', '13', '14', '15'],
                            'Early/Late': ['Early', 'Early', 'Early', 'Late', 'Late', 'Late']})
@@ -98,6 +98,7 @@ early_late = pd.DataFrame({'Session': ['1', '2', '3', '13', '14', '15'],
 table = table.merge(experiment, on=['Condition', 'Delay/No delay'], how='right')
 table = table.merge(early_late, on='Session', how='right')
 
-table.to_csv(os.path.join(CSV_STOREDIR, 'test.csv'), index=False)
+table.to_csv(os.path.join(CSV_STOREDIR, 'EXTRACTED_060223.csv'), index=False)
 
 print(table)
+
