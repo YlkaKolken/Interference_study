@@ -6,9 +6,9 @@ lti = lti.dropna()
 
 def numeric_experiment(x):
     if x == 'Delay':
-        return 0
-    elif x == 'No delay':
         return 1
+    elif x == 'No delay':
+        return 0
     else:
         return x
 
@@ -26,6 +26,6 @@ def numeric_time(y):
 lti['Time'] = lti['Time'].apply(numeric_time)
 
 # Run LMER
-md = smf.mixedlm("Experiment ~ Time", lti, groups=lti["Participant"], re_formula="~Score")
-mdf = md.fit(method=["lbfgs"])
+md = smf.mixedlm("Score ~ Experiment*Time", lti, groups=lti["Participant"])
+mdf = md.fit() 
 print(mdf.summary())
