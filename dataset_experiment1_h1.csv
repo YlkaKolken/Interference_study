@@ -1,0 +1,380 @@
+﻿Participant,Session,Staircase,Score,Experiment,Time
+1,1,1,30.06,No delay,Early
+1,1,2,10.4,No delay,Early
+1,1,3,13.5,No delay,Early
+1,1,4,14.5,No delay,Early
+1,1,3,19.097,Delay,Early
+1,1,2,16.504,Delay,Early
+1,1,1,18.08,Delay,Early
+1,1,4,19.448,Delay,Early
+1,2,1,13.5,No delay,Early
+1,2,2,20.52,No delay,Early
+1,2,3,9.54,No delay,Early
+1,2,4,12.75,No delay,Early
+1,2,2,19.805,Delay,Early
+1,2,3,8.407,Delay,Early
+1,2,1,19.095,Delay,Early
+1,3,1,20.16,No delay,Early
+1,3,2,7.95,No delay,Early
+1,3,3,7.11,No delay,Early
+1,3,4,12.75,No delay,Early
+1,3,2,10.272,Delay,Early
+1,3,3,7.815,Delay,Early
+1,3,1,9.043,Delay,Early
+1,13,1,6.03,No delay,Late
+1,13,2,7.23,No delay,Late
+1,13,3,6.03,No delay,Late
+1,13,4,4.61,No delay,Late
+1,13,4,4.688,Delay,Late
+1,13,3,4.775,Delay,Late
+1,13,2,4.359,Delay,Late
+1,13,1,3.316,Delay,Late
+1,14,1,4.69,No delay,Late
+1,14,2,4.36,No delay,Late
+1,14,3,5.53,No delay,Late
+1,14,4,4.19,No delay,Late
+1,14,1,4.953,Delay,Late
+1,14,2,4.688,Delay,Late
+1,14,3,3.197,Delay,Late
+1,14,4,3.567,Delay,Late
+1,15,1,5.12,No delay,Late
+1,15,2,5.22,No delay,Late
+1,15,3,5.32,No delay,Late
+1,15,4,3.32,No delay,Late
+1,15,4,4.775,Delay,Late
+1,15,1,6.28,Delay,Late
+1,15,2,4.605,Delay,Late
+1,15,3,4.203,Delay,Late
+2,1,1,6.27,No delay,Early
+2,1,2,4.61,No delay,Early
+2,1,3,4.12,No delay,Early
+2,1,4,2.57,No delay,Early
+2,1,3,9.378,Delay,Early
+2,1,1,8.718,Delay,Early
+2,1,4,8.719,Delay,Early
+2,1,2,6.511,Delay,Early
+2,2,1,2.22,No delay,Early
+2,2,2,2.3,No delay,Early
+2,2,3,2.57,No delay,Early
+2,2,4,2.14,No delay,Early
+2,2,4,3.027,Delay,Early
+2,2,3,5.426,Delay,Early
+2,2,1,4.522,Delay,Early
+2,2,2,5.425,Delay,Early
+2,3,1,2.86,No delay,Early
+2,3,2,2.42,No delay,Early
+2,3,3,2.3,No delay,Early
+2,3,4,2.3,No delay,Early
+2,3,3,2.918,Delay,Early
+2,3,2,3.139,Delay,Early
+2,3,4,2.918,Delay,Early
+2,3,1,3.906,Delay,Early
+2,13,1,1.78,No delay,Late
+2,13,2,1.65,No delay,Late
+2,13,3,1.33,No delay,Late
+2,13,4,1.42,No delay,Late
+2,13,3,2.221,Delay,Late
+2,13,1,1.782,Delay,Late
+2,13,4,1.689,Delay,Late
+2,13,2,1.783,Delay,Late
+2,14,1,1.85,No delay,Late
+2,14,2,0.96,No delay,Late
+2,14,3,0.86,No delay,Late
+2,14,4,1.35,No delay,Late
+2,14,3,1.883,Delay,Late
+2,14,2,2.062,Delay,Late
+2,14,4,2.026,Delay,Late
+2,14,1,1.85,Delay,Late
+2,15,1,1.63,No delay,Late
+2,15,2,1.82,No delay,Late
+2,15,3,1.14,No delay,Late
+2,15,4,1.29,No delay,Late
+2,15,4,1.488,Delay,Late
+2,15,3,1.657,Delay,Late
+2,15,1,1.99,Delay,Late
+2,15,2,1.883,Delay,Late
+3,1,1,22.46,No delay,Early
+3,1,2,21.24,No delay,Early
+3,1,3,23.75,No delay,Early
+3,1,4,31.1,No delay,Early
+3,1,1,15.344,Delay,Early
+3,1,2,12.328,Delay,Early
+3,1,3,6.277,Delay,Early
+3,1,4,4.36,Delay,Early
+3,2,1,15.6,No delay,Early
+3,2,2,13,No delay,Early
+3,2,3,32.34,No delay,Early
+3,2,4,21.24,No delay,Early
+3,2,4,2.302,Delay,Early
+3,2,3,2.567,Delay,Early
+3,2,2,3.978,Delay,Early
+3,2,1,4.522,Delay,Early
+3,3,1,38.8,No delay,Early
+3,3,2,20.88,No delay,Early
+3,3,3,16.8,No delay,Early
+3,3,4,24.06,No delay,Early
+3,3,1,2.062,Delay,Early
+3,3,2,2.864,Delay,Early
+3,3,3,2.343,Delay,Early
+3,3,4,1.217,Delay,Early
+3,13,1,9.54,No delay,Late
+3,13,2,9.37,No delay,Late
+3,13,3,8.85,No delay,Late
+3,13,4,13,No delay,Late
+3,13,2,0.997,Delay,Late
+3,13,3,1.286,Delay,Late
+3,13,4,0.998,Delay,Late
+3,13,1,0.908,Delay,Late
+3,14,1,17.1,No delay,Late
+3,14,2,6.75,No delay,Late
+3,14,3,10.23,No delay,Late
+3,14,4,10.4,No delay,Late
+3,14,3,0.942,Delay,Late
+3,14,1,1.461,Delay,Late
+3,14,2,1.049,Delay,Late
+3,14,4,1.384,Delay,Late
+3,15,1,7.23,No delay,Late
+3,15,2,5.93,No delay,Late
+3,15,3,5.73,No delay,Late
+3,15,4,7.95,No delay,Late
+3,15,3,0.801,Delay,Late
+3,15,1,0.861,Delay,Late
+3,15,2,0.944,Delay,Late
+3,15,4,1.07,Delay,Late
+4,1,1,15.3,No delay,Early
+4,1,2,7.52,No delay,Early
+4,1,3,7.81,No delay,Early
+4,1,4,6.83,No delay,Early
+4,2,1,7.66,No delay,Early
+4,2,2,6.99,No delay,Early
+4,2,3,5.63,No delay,Early
+4,2,4,9.71,No delay,Early
+4,3,1,8.39,No delay,Early
+4,3,2,3.49,No delay,Early
+4,3,3,5.42,No delay,Early
+4,3,4,5.93,No delay,Early
+4,13,1,3.98,No delay,Late
+4,13,2,2.91,No delay,Late
+4,13,3,2.91,No delay,Late
+4,13,4,3.2,No delay,Late
+4,13,4,1.883,Delay,Late
+4,13,2,1.333,Delay,Late
+4,13,3,1.134,Delay,Late
+4,13,1,1.659,Delay,Late
+4,14,1,2.02,No delay,Late
+4,14,2,2.3,No delay,Late
+4,14,3,1.88,No delay,Late
+4,14,4,2.91,No delay,Late
+4,14,1,1.816,Delay,Late
+4,14,3,2.026,Delay,Late
+4,14,2,1.239,Delay,Late
+4,14,4,1.599,Delay,Late
+4,15,1,3.37,No delay,Late
+4,15,2,2.81,No delay,Late
+4,15,3,2.62,No delay,Late
+4,15,4,3.03,No delay,Late
+4,15,4,0.943,Delay,Late
+4,15,1,1.85,Delay,Late
+4,15,3,1.408,Delay,Late
+4,15,2,1.383,Delay,Late
+5,1,1,5.02,No delay,Early
+5,1,2,5.12,No delay,Early
+5,1,3,6.75,No delay,Early
+5,1,4,5.73,No delay,Early
+5,1,1,4.202,Delay,Early
+5,1,2,3.907,Delay,Early
+5,1,3,1.689,Delay,Early
+5,1,4,2.025,Delay,Early
+5,2,1,4.44,No delay,Early
+5,2,2,5.83,No delay,Early
+5,2,3,4.69,No delay,Early
+5,2,4,4.36,No delay,Early
+5,2,1,3.377,Delay,Early
+5,2,4,1.052,Delay,Early
+5,2,3,2.025,Delay,Early
+5,2,2,1.884,Delay,Early
+5,3,1,4.05,No delay,Early
+5,3,2,2.42,No delay,Early
+5,3,3,2.91,No delay,Early
+5,3,4,2.52,No delay,Early
+5,3,2,1.218,Delay,Early
+5,3,4,1.461,Delay,Early
+5,3,3,2.178,Delay,Early
+5,3,1,1.405,Delay,Early
+5,13,1,2.47,No delay,Late
+5,13,2,2.18,No delay,Late
+5,13,3,4.61,No delay,Late
+5,13,4,2.81,No delay,Late
+5,13,4,0.772,Delay,Late
+5,13,1,1.13,Delay,Late
+5,13,3,1.154,Delay,Late
+5,13,2,0.801,Delay,Late
+5,14,1,2.34,No delay,Late
+5,14,2,2.91,No delay,Late
+5,14,3,3.08,No delay,Late
+5,14,4,2.86,No delay,Late
+5,14,3,0.744,Delay,Late
+5,14,2,0.758,Delay,Late
+5,14,4,1.014,Delay,Late
+5,14,1,0.893,Delay,Late
+5,15,1,2.66,No delay,Late
+5,15,2,2.71,No delay,Late
+5,15,3,2.42,No delay,Late
+5,15,4,2.1,No delay,Late
+5,15,2,0.772,Delay,Late
+5,15,4,0.557,Delay,Late
+5,15,3,0.773,Delay,Late
+5,15,1,1.196,Delay,Late
+6,1,1,0,No delay,Early
+6,1,2,33.17,No delay,Early
+6,1,3,38.24,No delay,Early
+6,1,4,32.65,No delay,Early
+6,2,1,25.47,No delay,Early
+6,2,2,25.04,No delay,Early
+6,2,3,24.18,No delay,Early
+6,2,4,20.52,No delay,Early
+6,2,1,2.763,Delay,Early
+6,2,2,2.866,Delay,Early
+6,2,3,2.386,Delay,Early
+6,3,1,25.47,No delay,Early
+6,3,2,23.32,No delay,Early
+6,3,3,17.4,No delay,Early
+6,3,4,11.87,No delay,Early
+6,3,1,2.387,Delay,Early
+6,3,2,1.72,Delay,Early
+6,3,3,1.918,Delay,Early
+6,13,1,10.4,No delay,Late
+6,13,2,6.51,No delay,Late
+6,13,3,7.81,No delay,Late
+6,13,4,8.53,No delay,Late
+6,13,1,1.815,Delay,Late
+6,13,2,1.435,Delay,Late
+6,13,3,1.751,Delay,Late
+6,14,1,10.4,No delay,Late
+6,14,2,6.99,No delay,Late
+6,14,3,4.61,No delay,Late
+6,14,4,7.66,No delay,Late
+6,15,1,6.99,No delay,Late
+6,15,2,5.83,No delay,Late
+6,15,3,11.45,No delay,Late
+6,15,4,6.39,No delay,Late
+6,15,3,1.24,Delay,Late
+6,15,2,1.13,Delay,Late
+6,15,1,1.751,Delay,Late
+6,15,4,1.217,Delay,Late
+7,1,1,38.8,No delay,Early
+7,1,2,34.82,No delay,Early
+7,1,3,30.06,No delay,Early
+7,1,4,31.1,No delay,Early
+7,1,1,20.54,Delay,Early
+7,1,3,19.448,Delay,Early
+7,1,2,19.095,Delay,Early
+7,1,4,20.169,Delay,Early
+7,2,1,20.16,No delay,Early
+7,2,2,8.39,No delay,Early
+7,2,3,7.81,No delay,Early
+7,2,4,9.32,No delay,Early
+7,2,4,15.625,Delay,Early
+7,2,1,13.505,Delay,Early
+7,2,2,11.254,Delay,Early
+7,2,3,10.087,Delay,Early
+7,3,1,5.73,No delay,Early
+7,3,2,6.03,No delay,Early
+7,3,3,7.23,No delay,Early
+7,3,4,9.88,No delay,Early
+7,3,1,6.278,Delay,Early
+7,3,2,7.006,Delay,Early
+7,3,3,5.232,Delay,Early
+7,3,4,5.837,Delay,Early
+7,13,1,3.77,No delay,Late
+7,13,2,1.78,No delay,Late
+7,13,3,2.47,No delay,Late
+7,13,4,3.49,No delay,Late
+7,13,2,2.475,Delay,Late
+7,13,3,2.663,Delay,Late
+7,13,1,1.719,Delay,Late
+7,13,4,3.566,Delay,Late
+7,14,1,2.42,No delay,Late
+7,14,2,2.34,No delay,Late
+7,14,3,1.18,No delay,Late
+7,14,4,3.26,No delay,Late
+7,14,4,2.26,Delay,Late
+7,14,1,2.025,Delay,Late
+7,14,3,2.388,Delay,Late
+7,14,2,2.616,Delay,Late
+7,15,1,2.97,No delay,Late
+7,15,2,2.38,No delay,Late
+7,15,3,2.14,No delay,Late
+7,15,4,1.82,No delay,Late
+7,15,1,1.719,Delay,Late
+7,15,3,2.259,Delay,Late
+7,15,2,1.953,Delay,Late
+7,15,4,2.387,Delay,Late
+8,1,4,13.261,Delay,Early
+8,1,3,5.231,Delay,Early
+8,1,2,11.253,Delay,Early
+8,1,1,20.54,Delay,Early
+8,1,1,12.29,No delay,Early
+8,1,2,12.5,No delay,Early
+8,1,3,7.11,No delay,Early
+8,1,4,9.02,No delay,Early
+8,2,2,5.526,Delay,Early
+8,2,3,6.054,Delay,Early
+8,2,1,6.878,Delay,Early
+8,2,4,4.203,Delay,Early
+8,2,1,6.51,No delay,Early
+8,2,2,4.44,No delay,Early
+8,2,3,4.85,No delay,Early
+8,2,4,8.1,No delay,Early
+8,3,1,5.24,No delay,Early
+8,3,2,6.63,No delay,Early
+8,3,3,6.27,No delay,Early
+8,3,4,5.22,No delay,Early
+8,13,1,1.65,No delay,Late
+8,13,2,3.43,No delay,Late
+8,13,3,2.22,No delay,Late
+8,13,4,2.81,No delay,Late
+8,14,1,2.22,No delay,Late
+8,14,2,2.62,No delay,Late
+8,14,3,1.65,No delay,Late
+8,14,4,1.95,No delay,Late
+8,15,1,3.49,No delay,Late
+8,15,2,1.88,No delay,Late
+8,15,3,3.2,No delay,Late
+8,15,4,3.77,No delay,Late
+4,1,1,8.718170476,Delay,Early
+4,1,2,5.836052525,Delay,Early
+4,1,3,4.688984859,Delay,Early
+4,1,4,5.836760006,Delay,Early
+4,2,1,3.83599364,Delay,Early
+4,2,2,4.358852872,Delay,Early
+4,2,3,3.837320124,Delay,Early
+4,2,4,4.521474119,Delay,Early
+4,3,1,2.813995139,Delay,Early
+4,3,2,2.761890205,Delay,Early
+4,3,3,2.971699247,Delay,Early
+4,3,4,2.918588143,Delay,Early
+6,1,1,7.674,Delay,Early
+6,1,2,8.254,Delay,Early
+6,1,3,4.127,Delay,Early
+6,1,1,4.775,Delay,Early
+6,14,1,1.514735378,Delay,Early
+6,14,2,1.48666296,Delay,Early
+6,14,3,1.688839039,Delay,Early
+6,14,1,1.658332696,Delay,Early
+8,3,1,15.067,Delay,Early
+8,3,2,18.078,Delay,Early
+8,3,3,16.208,Delay,Early
+8,3,4,15.626,Delay,Early
+8,13,1,1.816,Delay,Late
+8,13,2,1.46,Delay,Late
+8,13,3,1.408,Delay,Late
+8,13,4,,Delay,Late
+8,14,1,1.816,Delay,Late
+8,14,2,1.688,Delay,Late
+8,14,3,2.476,Delay,Late
+8,14,4,1.263,Delay,Late
+8,15,1,2.813,Delay,Late
+8,15,2,1.688,Delay,Late
+8,15,3,1.917,Delay,Late
+8,15,3,1.36,Delay,Late
