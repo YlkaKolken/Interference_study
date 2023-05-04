@@ -43,6 +43,21 @@ def extract_nodelay_data(infile, dataframe):
 
 
 def extract_delay_data(infile, dataframe):
+    try:
+        df = pd.read_csv(infile, header=1)
+        df['match'] = df.oriincrement.eq(df.oriincrement.shift())
+        df = df[(df.match == False) & (df.targetSide.isin([-1, 1]))].iloc[-10:]
+        try:
+            df['logn'] = df['oriincrement'].apply(float).apply(np.log)
+            value = math.exp(df.logn.mean())
+        except ValueError:
+            print(infile)
+            value = 'ValueError'
+    except EmptyDataError:
+        value = 'EmptyDataError'
+    except ParserError:
+        value = 'ParseError'
+
     with open(infile, 'r') as f:
         data = f.read().strip().split('\n')
         cnd = None
@@ -56,6 +71,7 @@ def extract_delay_data(infile, dataframe):
                     'Condition': c,
                     'Staircase': r,
                     'Score': cnd,
+                    'Value': value,
                     'Source': file,
                     'Delay/No delay': 'Delay'}, index=[0])])
             else:
@@ -63,7 +79,7 @@ def extract_delay_data(infile, dataframe):
     return dataframe
 
 
-table = pd.DataFrame(columns=['Participant', 'Session', 'Source', 'File', 'Condition', 'Staircase', 'Score'])
+table = pd.DataFrame(columns=['Participant', 'Session', 'Source', 'File', 'Condition', 'Staircase', 'Score', 'Value'])
 
 # NO DELAY
 for participant in os.listdir(BASEDIR_NODELAY):
@@ -88,17 +104,17 @@ for participant in os.listdir(BASEDIR_DELAY):
                                 table = extract_delay_data(
                                     os.path.join(BASEDIR_DELAY, participant, part, session, file), table)
 
-experiment = pd.DataFrame({'Condition': ['12', '12', '16', '135', '15'],
-                           'Delay/No delay': ['No delay', 'Delay', 'Delay', 'Delay', 'No delay'],
-                           'Experiment': ['1', '1', '1', '1', '1']})
+experiment = pd.DataFrame({'Condition': ['15','24', '24', '16'],
+                           'Delay/No delay': ['Delay', 'Delay', 'No delay', 'No delay'],
+                           'Experiment': ['3', '3', '3', '3']})
 
-early_late = pd.DataFrame({'Session': ['1', '2', '3', '13', '14', '15'],
-                           'Early/Late': ['Early', 'Early', 'Early', 'Late', 'Late', 'Late']})
+early_late = pd.DataFrame({'Session': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+                           'Early/Late': ['Early', 'Early', 'Early', 'Late', 'Late', 'Late', 'Early', 'Early', 'Late', 'Late', 'Late', 'Late', 'Late', 'Late', 'Late']})
 
 table = table.merge(experiment, on=['Condition', 'Delay/No delay'], how='right')
 table = table.merge(early_late, on='Session', how='right')
 
-table.to_csv(os.path.join(CSV_STOREDIR, 'EXTRACTED_060223.csv'), index=False)
+table.to_csv(os.path.join(CSV_STOREDIR, 'EXTRACTED_H5.csv'), index=False)
 
 print(table)
 
