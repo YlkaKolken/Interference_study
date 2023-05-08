@@ -132,4 +132,3 @@ table = table.merge(early_late, on='Session', how='right')
 table.to_csv(os.path.join(CSV_STOREDIR, 'EXTRACTED_ACA_test.csv'), index=False)
 
 print(table)
-
