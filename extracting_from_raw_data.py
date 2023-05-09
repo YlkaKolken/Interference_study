@@ -119,11 +119,11 @@ for participant in os.listdir(BASEDIR_DELAY):
                                 table = extract_delay_data(
                                     os.path.join(BASEDIR_DELAY, participant, part, session, file), table)
 
-experiment = pd.DataFrame({'Condition': ['12','12', '16', '16'],
+experiment = pd.DataFrame({'Condition': ['32','32', '36', '36'],
                            'Delay/No delay': ['Delay', 'No delay', 'Delay', 'No delay'],
                            'Experiment': ['3', '3', '3', '3']})
 
-early_late = pd.DataFrame({'Session': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+early_late = pd.DataFrame({'Session': ['31','32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45'],
                            'Early/Late': ['Early', 'Early', 'Early', 'Late', 'Late', 'Late', 'Early', 'Early', 'Late', 'Late', 'Late', 'Late', 'Late', 'Late', 'Late']})
 
 table = table.merge(experiment, on=['Condition', 'Delay/No delay'], how='right')
