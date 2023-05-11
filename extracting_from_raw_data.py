@@ -114,7 +114,7 @@ for participant in os.listdir(BASEDIR_DELAY):
                     if os.path.isdir(os.path.join(BASEDIR_DELAY, participant, part, session)):
                         for file in os.listdir(os.path.join(BASEDIR_DELAY, participant, part, session)):
                             searchresult = re.match(r'pp(\d+)_s(\d+)_c(\d+)_r(\d+).*.csv', file.lower())
-                            if searchresult is not None:
+                          if searchresult is not None:
                                 pp, s, c, r = searchresult.groups()
                                 table = extract_delay_data(
                                     os.path.join(BASEDIR_DELAY, participant, part, session, file), table)
